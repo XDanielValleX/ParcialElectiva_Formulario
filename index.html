@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro de Programa Académico y Empleado</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <!-- Registro de Programa Académico -->
+        <div class="container">
+            <header>
+                <img
+                    src="https://unicolombo.edu.co/wp-content/uploads/2023/05/Logo-Unicolombo-2048x547.png"
+                    alt="Unicolombo" class="logo">
+                <h1>Registro de Programa Académico</h1>
+            </header>
+
+            <form>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Nombre del Programa *</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label>Nombre Abreviado</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Código Institucional *</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label>Nivel de Formación *</label>
+                        <select>
+                            <option>Seleccione</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Programa Académico *</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label>SNIES</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Coordinador Académico *</label>
+                        <select>
+                            <option>Seleccione</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Estado *</label>
+                        <select>
+                            <option>Seleccione</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Realizar Prácticas</label>
+                        <input type="checkbox" checked>
+                    </div>
+                    <div class="form-group">
+                        <label>Duración (Meses)</label>
+                        <input type="number" min="1" placeholder="X">
+                    </div>
+                </div>
+                <button type="submit">Agregar</button>
+            </form>
+        </div>
+
+        <!-- Registro de Empleado -->
+        <div class="container">
+            <header>
+                <img
+                    src="https://unicolombo.edu.co/wp-content/uploads/2023/05/Logo-Unicolombo-2048x547.png"
+                    alt="Unicolombo" class="logo">
+                <h1>Registro de Empleado</h1>
+            </header>
+
+            <form>
+                <h2>Datos Personales</h2>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Tipo de Documento</label>
+                        <select>
+                            <option>Seleccione</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Número de Documento</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Primer Nombre</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label>Segundo Nombre</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Primer Apellido</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label>Segundo Apellido</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Teléfono</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label>Celular</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email">
+                    </div>
+                    <div class="form-group">
+                        <label>Fecha de Nacimiento</label>
+                        <input type="date">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Género</label>
+                        <select>
+                            <option>Seleccione</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Departamento de Residencia</label>
+                        <select>
+                            <option>Seleccione</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Municipio de Residencia</label>
+                        <select>
+                            <option>Seleccione</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Dirección</label>
+                        <input type="text">
+                    </div>
+                </div>
+
+                <h2>Datos Laborales</h2>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Seleccionar Empresa</label>
+                        <select>
+                            <option>Seleccione</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Cargo</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Dependencia</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label>Estado</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+    </body>
+</html>
